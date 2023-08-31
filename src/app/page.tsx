@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main className="relative">
-      nav
+      <Navbar />
       <section className="xl:padding-1 wide:padding-r padding-b">hero</section>
       <section className="padding">Popular Products</section>
       <section className="padding">Super Quality</section>
