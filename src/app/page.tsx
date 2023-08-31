@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <main className="relative">
       <Navbar />
-      <section className="xl:padding-1 wide:padding-r padding-b">hero</section>
+      <section className="xl:padding-1 wide:padding-r padding-b">
+        <Hero />
+      </section>
       <section className="padding">Popular Products</section>
       <section className="padding">Super Quality</section>
       <section className="padding-x py-10 ">Services</section>
