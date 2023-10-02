@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PopularProducts from "./components/PopularProducts";
 import SuperQuality from "./components/SuperQuality";
+import Services from "./components/Services";
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
       <section className="padding">
         <SuperQuality />
       </section>
-      <section className="padding-x py-10 ">Services</section>
+      <section className="padding-x py-10 ">
+        <Services />
+      </section>
       <section className="padding">Special Offer</section>
       <section className="padding bg-pale-blue ">Customer Review</section>
       <section className="padding-x sm:py-32 py-16  w-full">Subscribe</section>
