@@ -8,13 +8,13 @@ import customer2 from "./customer2.svg";
 import footerLogo from "./footer-logo.svg";
 import headerLogo from "./header-logo.svg";
 
-import offer from "./offer.svg";
+const offer = "/images/offer.svg";
 
 const shoe4 = "/images/shoe4.svg";
 const shoe5 = "/images/shoe5.svg";
 const shoe6 = "/images/shoe6.svg";
 const shoe7 = "/images/shoe7.svg";
-const shoe8 = "/images//shoe8.svg";
+const shoe8 = "/images/shoe8.svg";
 
 import thumbnailBackground from "./thumbnail-background.svg";
 import thumbnailShoe1 from "./thumbnail-shoe1.svg";
