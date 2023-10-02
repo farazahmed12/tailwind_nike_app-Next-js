@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import PopularProducts from "./components/PopularProducts";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="padding">Popular Products</section>
+      <section className="padding">
+        <PopularProducts />
+      </section>
       <section className="padding">Super Quality</section>
       <section className="padding-x py-10 ">Services</section>
       <section className="padding">Special Offer</section>
