@@ -3,11 +3,26 @@ import React from "react";
 type ButtonProps = {
   label: String;
   iconUrl?: any;
+  backgroundColor?: String;
+  borderColor?: String;
+  textColor?: String;
 };
 
-const Button = ({ label, iconUrl }: ButtonProps) => {
+const Button = ({
+  label,
+  iconUrl,
+  backgroundColor,
+  borderColor,
+  textColor,
+}: ButtonProps) => {
   return (
-    <button className="hover:scale-105 duration-200 flex justify-center items-center gap-2 px-7 py-4 border font-montserrat leading-none text-lg bg-coral-red rounded-full text-white ">
+    <button
+      className={`hover:scale-105 duration-200 flex justify-center items-center gap-2 px-7 py-4 border font-montserrat leading-none ${
+        backgroundColor
+          ? `${backgroundColor} ${borderColor} ${textColor} `
+          : "text-white text-lg bg-coral-red"
+      } rounded-full `}
+    >
       {label}
       {iconUrl && (
         <img
