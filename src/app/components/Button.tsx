@@ -6,6 +6,7 @@ type ButtonProps = {
   backgroundColor?: String;
   borderColor?: String;
   textColor?: String;
+  widthfull?: Boolean;
 };
 
 const Button = ({
@@ -14,6 +15,7 @@ const Button = ({
   backgroundColor,
   borderColor,
   textColor,
+  widthfull,
 }: ButtonProps) => {
   return (
     <button
@@ -21,7 +23,7 @@ const Button = ({
         backgroundColor
           ? `${backgroundColor} ${borderColor} ${textColor} `
           : "text-white text-lg bg-coral-red"
-      } rounded-full `}
+      } rounded-full ${widthfull && "w-full"} `}
     >
       {label}
       {iconUrl && (
