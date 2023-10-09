@@ -2,7 +2,7 @@ import React from "react";
 import { star } from "../../../public/icons";
 
 type ReviewCardProps = {
-  imgURL: String;
+  imgURL: any;
   customerName: String;
   rating: Number;
   feedback: String;
@@ -25,7 +25,7 @@ const ReviewCard = ({
       <div className="mt-6 justify-center items-center gap-2.5">
         <img src={star} width={24} height={24} className="object-contain m-0" />
         <p className="text-xl font-montserrat text-slate-gray">
-          {rating as Number}
+          {rating.toString()}
         </p>
       </div>
       <h3 className="text-3xl font-palanquin text-center font-bold">
