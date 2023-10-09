@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import SpecialOffer from "./components/SpecialOffer";
 import CustomerReview from "./components/CustomerReview";
 import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -33,7 +34,9 @@ export default function Home() {
       <section className="padding-x sm:py-32 py-16  w-full">
         <Subscribe />
       </section>
-      <section className="padding-x bg-black padding-t pb-8 ">Footer</section>
+      <section className="padding-x bg-black padding-t pb-8 ">
+        <Footer />
+      </section>
     </main>
   );
 }

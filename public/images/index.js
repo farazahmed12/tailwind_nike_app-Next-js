@@ -5,7 +5,7 @@ import bigShoe3 from "./big-shoe3.png";
 const customer1 = "/images/customer1.jpeg";
 const customer2 = "/images/customer2.svg";
 
-import footerLogo from "./footer-logo.svg";
+const footerLogo = "/images/footer-logo.svg";
 import headerLogo from "./header-logo.svg";
 
 const offer = "/images/offer.svg";
